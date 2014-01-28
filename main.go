@@ -95,7 +95,7 @@ func main() {
 	var throwaway string
 	n, err := fmt.Scanf("%s", &throwaway)
 	if err != nil || n != 1 {
-		fmt.Printf(err.Error())
+		fmt.Printf("")
 	}
 
 	source := rand.NewSource(time.Now().Unix())
